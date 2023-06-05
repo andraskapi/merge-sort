@@ -8,9 +8,9 @@ public class Main {
     }
 
 
-    public static boolean isSorted(int[] tomb) {
-        for (int i = 0; i < tomb.length - 1; i++) {
-            if (tomb[i] > tomb[i + 1]) {
+    public static boolean isSorted(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] > array[i + 1]) {
 
                 return false;
             }
@@ -19,6 +19,10 @@ public class Main {
     }
 
     public static int[] merge(int[] left, int[] right){
+        return null;
+    }
+
+    public static int[] mergeSort(int[] array){
         return null;
     }
 
