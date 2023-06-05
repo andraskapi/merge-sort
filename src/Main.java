@@ -18,5 +18,9 @@ public class Main {
         return true;
     }
 
+    public static int[] merge(int[] left, int[] right){
+        return null;
+    }
+
 
 }
