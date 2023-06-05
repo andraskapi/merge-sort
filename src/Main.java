@@ -4,9 +4,11 @@ public class Main {
     public static void main(String[] args) {
 
         int[] testTombA = {1, 2, 3, 4, 5, 6, 7};
-        int[] testTombB = {12, 6, 21, 0, -3};
+        int[] testTombB = {12, 6, 21, 0, -3, 666, 741, 200, -64, 10};
         System.out.println("Merge sort");
         System.out.println(isSorted(testTombA));
+        testTombB = mergeSort(testTombB);
+        System.out.println(Arrays.toString(testTombB));
     }
 
 
